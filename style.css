@@ -1,0 +1,67 @@
+.flex-container1{
+    display:flex;
+    background-color: rgb(219, 14, 14);
+    flex-direction: column;
+    
+
+}
+.flex-container1>div{
+    background-color: white;
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+    width: 100px;
+    text-align: center;
+}
+.flex-container2{
+    display:flex;
+    background-color: blue;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.flex-container2>div{
+    background-color: white;
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+    width: 100px;
+    text-align: center;
+}
+
+.flex-container3{
+    display:flex;
+    background-color: rgb(72, 255, 0);
+    flex-direction: row;
+    justify-content:space-between;
+    
+}
+.flex-container3>div{
+    background-color: white;
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+    width: 100px;
+    text-align: center;
+}
+.flex-container4{
+    display:flex;
+    background-color: rgb(0, 174, 255);
+   
+   
+    
+}
+.flex-container4>div{
+    background-color: white;
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.flex-container4>div#box1.left{
+    background-color: plum;
+    flex:50%;
+}
+.right{
+    flex:50%;
+}
